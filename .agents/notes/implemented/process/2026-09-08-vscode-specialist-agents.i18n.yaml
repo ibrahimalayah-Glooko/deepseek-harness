@@ -1,0 +1,6 @@
+# Bilingual-pair consistency record (docs/i18n/README.md): the git blob hash of each
+# side as of the last confirmed-consistent state. Both languages carry equal authority;
+# after editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/process/2026-09-08-vscode-specialist-agents.md
+2026-09-08-vscode-specialist-agents.md: 5952f639f035c56b2c4fa62787b19dc81e8f128f
+2026-09-08-vscode-specialist-agents.zh.md: 5afe85f15f487075ed8c4f718ba5b24b5d4e813d

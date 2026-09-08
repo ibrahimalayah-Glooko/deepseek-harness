@@ -131,12 +131,20 @@ const homeAndGuide = pairedPages([
     order: 2,
   },
   {
+    source: 'docs/user/guide/vscode-agents.md',
+    route: 'guide/vscode-agents.md',
+    label: { root: '使用 VS Code agents', en: 'Use VS Code agents' },
+    sidebar: { root: 'zh-guide', en: 'en-guide' },
+    section: { root: '入门', en: 'Guide' },
+    order: 3,
+  },
+  {
     source: 'docs/user/guide/network-proxy.md',
     route: 'guide/network-proxy.md',
     label: { root: '网络代理', en: 'Network proxy' },
     sidebar: { root: 'zh-guide', en: 'en-guide' },
     section: { root: '入门', en: 'Guide' },
-    order: 3,
+    order: 4,
   },
   {
     source: 'docs/user/guide/python-sdk.md',
